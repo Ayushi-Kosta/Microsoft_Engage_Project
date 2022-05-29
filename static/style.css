@@ -43,11 +43,13 @@
 }
 
 .he{
-	font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/* font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+	font-family: TIMES NEW ROMAN;
 	color: #2155CD;
 	font-weight: bold;
 	margin-top: 30px;
-	/* text-shadow: #ffffff 0px 0px 13px; */
+	text-shadow: 1px 1px #E8F9FD;
+	font-size: 3.5rem;
 }
 .github-corner:hover .octo-arm {
   	animation: octocat-wave 560ms ease-in-out;
@@ -77,6 +79,7 @@
 #name {
 	color: white;
 	padding: 1px;
+	text-shadow: 1.5px 1.5px #2155cd;
 }
 
 h6 {
@@ -237,6 +240,8 @@ h6 {
 
 .card-btn {
 	border-radius: 20px;
+	background-color: #2155CD;
+	color: #ffffff;
 }
 
 .imghvr {
@@ -252,4 +257,73 @@ h6 {
 .fail {
 	display: none;
 	color: white;
+}
+
+.search-box{
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+}
+#name{
+	font-family: TIMES NEW ROMAN;
+	color:#E8F9FD;
+}
+#details{
+	font-family: TIMES NEW ROMAN;
+	color:#2155CD;
+}
+.d{
+	color: #E8F9FD;
+	font-size: 1.2rem;
+}
+#title, #overview, #vote_average, #genres, #date, #runtime, #status{
+	font-size: 1.4rem;
+}
+.modal-header{
+	background-color: #2155CD;
+	color: white;
+}
+.modal-body{
+	background-color:#E8F9FD;
+}
+.modal-footer{
+	 background-color: #2155CD;
+}
+.topcast{
+	color: #2155CD;
+}
+.topcast_d{
+	color: #E8F9FD;
+}
+.imghvr{
+	box-shadow: 0px 0px 40px #2155CD;
+}
+.card-body{
+	background-color: #E8F9FD
+}
+.card-title{
+	color:#2155CD;
+}
+.character{
+	color:#7F8487;
+	font-size: 20px;
+}
+.table tr{
+	background-color:#2155CD;
+	color: #ffffff"
+}
+.review{
+	color: #000000;
+	margin: 0 auto;
+	margin-top:25px;
+}
+.rec{
+	color:#2155CD;
+}
+.re_d{
+	color:#E8F9FD;
+}
+.card{
+	width: 15rem;
+	box-shadow: 0px 0px 40px #2155CD;
 }
