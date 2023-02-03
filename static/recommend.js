@@ -83,8 +83,8 @@ function movie_recs(movie_title,movie_id,my_api_key){
       }
     },
     error: function(){
-      alert("error recs");
-      $("#loader").delay(500).fadeOut();
+      alert("movie api is taking so much time to respond");
+      $("#loader").delay(1000).fadeOut();
     },
   });
 }
